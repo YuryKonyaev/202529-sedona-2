@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Yury Konyaev](https://up.htmlacademy.ru/htmlcss/21/user/202529).
-* Наставник: [Илья Туров](https://htmlacademy.ru/profile/turov).
+* Наставник:[Илья Туров](https://htmlacademy.ru/profile/turov).
 
 ---
 
