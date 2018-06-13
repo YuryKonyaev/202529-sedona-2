@@ -4,12 +4,13 @@
         <meta charset="utf-8">
           <title>SEDONA</title>
       </head>
-    <body>
+    <body class="page">
+      <div class="wrapper">
     <header class="main-header">
       <nav class="main-header-navigation">
-        <div class="main-header-logo">
-          <img src="#" alt="логотип седона" width="150" height="100"/>
-        </div>
+        <a class="main-header-logo">
+          <img src="img/nav-logo.png" alt="логотип седона" width="138" height="70">
+        </a>
         <ul class="main-header-navigation">
           <li class="main-header-navigation-item"><a href="#">Информация</a></li>
           <li class="main-header-navigation-item"><a href="#">Фото и видео</a></li>
@@ -19,96 +20,109 @@
       </nav>
     </header>
     <main class="main">
-      <div>
-        <h1 class="title">седона-небольшой городок в аризоне, заслуживающий большего!</h1>
-        <p class="reasons">рассмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
+      <div class="promo">
+        <img class="promo-image" src="img/promo-title.png" width="458" heihgt="352" alt="Добро пожаловать в седону">
       </div>
-      <section class="features">
-        <div class="features-contents">
-          <h2 class="features-title">настоящий городок</h2>
-          <span class="number">№1</span>
-          <p class="features-description">седона-не атракцион для туристов, там течет своя жизнь </p>
-        </div>
-        <div class="features-img">
-            <img src="#" alt="Седона город" width="500" height="200" />
-        </div>
-      </section>
-      <section class="services">
-        <div class="features-services">
-          <h2 class="features-title">Жилье</h2>
-          <p class="features-description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-        </div>
-        <div class="features-services">
-          <h2 class="features-title">Еда</h2>
-          <p class="features-description">Всегда заказывайте фирменныйе бургер, вы не разочаруетесь!</p>
-        </div>
-        <div class="features-services">
-          <h2 class="features-title">Сувениры</h2>
-          <p class="features-description">Всегда заказывайте фирменныйе бургер, вы не разочаруетесь!</p>
-        </div>
-      </section>
-      <section class="features">
-        <div class="features-img">
-            <img src="#" alt="Седона город" width="500" height="200" />
-        </div>
-        <div class="features-contents">
-          <h2 class="features-title">Там есть мост дьявола</h2>
-          <span class="number">№2</span>
-          <p class="features-description">да, по нему можно пройти! если конечно вы осмелитесь</p>
-        </div>
-      </section>
-      <section class="services">
-        <div class="features-services">
-          <h2 class="features-title">Небольшая площадь</h2>
-          <span class="number">№3</span>
-          <p class="features-description">Все достопримечательности находятся очень близко</p>
-        </div>
-        <div class="features-services">
-          <h2 class="features-title">Красивая дорога</h2>
-          <span class="number">№4</span>
-          <p class="features-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </div>
-        <div class="features-services">
-          <h2 class="features-title">Мало туристов</h2>
-          <span class="number">№5</span>
-          <p class="features-description">Большенство едет в гранд каньон и толпится там</p>
-        </div>
+      <div class="intro">
+        <h1 class="intro-title">седона-небольшой городок в аризоне, заслуживающий большего!</h1>
+        <p class="intro-reasons">рассмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
+      </div>
+      <section class="reasons">
+        <h3 class="visually-hidden">причины посетить седону</h3>
+        <ol class="reasons-list">
+          <li class="reasons-item">
+            <figure class="reason-big">
+              <figcaption class="reason-big-description">
+                <h4 class="reason-title">настоящий городок</h4>
+                <span class="reasons-number">№1</span>
+                <p class="reasons-type">седона-не атракцион для туристов, там течет своя жизнь</p>
+              </figcaption>
+              <img class="reason-big-image" src="img/advantage-img.jpg" width="800" heihgt="256" alt="картинка">
+            </figure>
+            <ul class="reasons-additional-list">
+              <li class="additional-item">
+                <h5 class="reason-title">Жилье</h5>
+                <p class="reasons-type">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+              </li>
+              <li class="additional-item">
+                <h5 class="reason-title">Еда</h5>
+                <p class="reasons-type">Всегда заказывайте фирменныйе бургер, вы не разочаруетесь!</p>
+              </li>
+              <li class="additional-item">
+                <h5 class="reason-title">Сувениры</h5>
+                <p class="reasons-type">Не только китайского, но и местного производства!</p>
+              </li>
+            </ul>
+          </li>
+          <li class="reasons-item">
+            <figure class="reason-lg">
+              <img class="reason-lg-image" src="img/advantage-img2.jpg" width="800" heihgt="256" alt="картинка">
+              <figcaption class="reason-lg-description">
+                <h4 class="reason-lg-title">Там есть мост дьявола</h4>
+                <span class="reasons-number">№2</span>
+                <p class="reasons-lg-type">да, по нему можно пройти! если конечно вы осмелитесь</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="reasons-item reasons-item-sm">
+            <h4 class="reasons-item-sm-title">Небольшая площадь</h4>
+            <span class="reasons-number">№3</span>
+            <p class="reasons-item-sm-description">Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="reasons-item reasons-item-sm">
+            <h4 class="reasons-item-sm-title">Красивая дорога</h4>
+            <span class="reasons-number">№4</span>
+            <p class="reasons-item-sm-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="reasons-item reasons-item-sm">
+            <h4 class="reasons-item-sm-title">Мало туристов</h4>
+            <span class="reasons-number">№5</span>
+            <p class="reasons-item-sm-description">Большенство едет в гранд каньон и толпится там</p>
+          </li>
+        </ol>
       </section>
       <div class="interested">
-        <h2 class="interested">Заинтересовались?</h2>
-        <p class="features-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <a class="button" href="#">Найти гостиницу</a>
-        <form class="interested-form" action="#" method="post">
-          <label for="date-arrival">дата заезда</label>
-            <input type="text" name="date" id="date-arrival">
-            <br><br>
-          <label for="date-departure">дата выезда</label>
-            <input type="text" name="date" id="date-departure">
-            <br><br>
-          <label for="adults-field">взрослые</label>
-            <input type="text" name="quantity" id="adults-field">
-          <label for="children-field">дети</label>
-            <input type="text" name="quantity" id="children-field">
-            <input type="submit" name="btn" value="найти">
-        </form>
+        <b class="interested-promo">Заинтересовались?</b>
+        <p class="interested-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <button class="btn btn-show-form" type="button">Найти гостиницу</button>
+      <form class="interested-form" action="#" method="post">
+          <div class="interested-form-item">
+            <label for="date-arrival">дата заезда</label>
+              <input type="text" name="date" id="date-arrival">
+          </div>
+          <div class="interested-form-item">
+            <label for="date-departure">дата выезда</label>
+              <input type="text" name="date" id="date-departure">
+          </div>
+          <div class="interested-form-item">
+            <label for="adults-field">взрослые</label>
+              <input type="text" name="quantity" id="adults-field">
+          </div>
+          <div class="interested-form-item">
+            <label for="children-field">дети</label>
+              <input type="text" name="quantity" id="children-field">
+              <input type="submit" name="btn" value="найти">
+          </div>
+      </form>
       </div>
-      <section class="modal-map">
+      <section class="map">
         <h3 class="visually-hidden">карта</h3>
-       <img src="#" alt="карта" width="1000" height="500" />
+       <img src="#" alt="карта" width="1000" height="500">
       </section>
     </main>
-      <footer class="footer">
-        <div class="footer-social">
-          <ul>
-            <li><a class="social-button" href="#">твиттер</a></li>
-            <li><a class="social-button" href="#">Фейсбук</a></li>
-            <li><a class="social-button" href="#">ютуб</a></li>
-          </ul>
-        </div>
-        <p class="footer-copyright">
-          <a class="copyright" href="https://htmlacademy.ru">website by</a>
+    <footer class="footer">
+      <a class="footer-hashtag-link" href="#"></a>
+        <ul class="social-list">
+          <li class="social-item"><a class="social-button" href="https://twitter.com/htmlacademy_ru">твиттер</a></li>
+          <li class="social-item"><a class="social-button" href="https://www.facebook.com/htmlacademy">Фейсбук</a></li>
+          <li class="social-item"><a class="social-button" href="https://www.youtube.com/htmlacademyru">ютуб</a></li>
+        </ul>
+        <a class="foter-copyright" href="">
+          <span>website by</span>
+          <span class="visually-hidden">html academy</span>
           <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
-        </p>
-      </footer>
+        </a>
+    </footer>
+      </div>
     </body>
     </html>
